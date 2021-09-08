@@ -1,0 +1,47 @@
+:root{
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+
+    width: 100%;
+    display: grid;
+    
+}
+
+.barra-nav{
+
+    display: grid;
+    
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.barra-nav__lista{
+    grid-column: 2;
+    list-style: none;
+    min-width: 300px;
+    
+}
+
+.barra-nav__lista--item{
+
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+
+
+
