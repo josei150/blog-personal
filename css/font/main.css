@@ -41,7 +41,7 @@ html{
 .logo__container{
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     background-color: #42bb9d;
     background:linear-gradient(90deg, #42bb9d, var(--color-primary));
     border-top: 1px solid white;
@@ -148,7 +148,7 @@ html{
     text-align: justify;
     justify-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 10px 0 0;
     
 
 }
@@ -156,6 +156,7 @@ html{
 .blogpost__main{
 
     width: 90%;
+    margin-bottom: 15px;
     
 }
 
@@ -210,8 +211,28 @@ html{
     margin-bottom: 10px;
 }
 
+.footer{
 
+    width: 100%;
+    border-top: 20px solid var(--color-primary);
+}
 
+.footer__container{
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 50px;
+
+}
+
+.footer__container--text{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+    color: white;
+}
 
 
 
