@@ -30,6 +30,12 @@ html{
     
 }
 
+.container__main{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
 .barra-nav{
 
     display: grid;
@@ -165,7 +171,7 @@ html{
     justify-items: center;
     width: 100%;
     margin-bottom: 10px;
-    
+    margin-top: 10px;
 }
 
 .blogpost__image{
@@ -209,6 +215,7 @@ html{
     line-height: 1.8rem;
     font-weight: normal;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .footer{
